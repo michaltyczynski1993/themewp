@@ -1,6 +1,5 @@
 header {
   background-color: #e9edc9;
-  height: 6rem;
   margin: 0rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -11,6 +10,14 @@ header {
 .menu-container {
   display: flex;
   flex-grow: 2;
+}
+
+.head-logo {
+  padding: 0.5rem 0;
+}
+
+.vertical-line {
+  display: none;
 }
 
 header > h3 {
@@ -31,6 +38,8 @@ header .menu-container .main-menu li {
 
 header .menu-container .main-menu li:hover {
   background-color: #faedcd;
+  border-radius: 0.5rem;
+  font-weight: bold;
 }
 
 header .menu-container .main-menu li a {
@@ -41,22 +50,15 @@ header .menu-container .main-menu li a {
 .vertical-line {
   margin: 0 1.5rem;
   border-left: 2px solid #111;
-  height: 500px;
+  height: 50px;
   max-height: 70%;
 }
 
-/* @media (max-width: 550px) {
+@media (min-width: 700px) {
   header {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 6rem;
+    flex-direction: row;
   }
-
   .vertical-line {
-    display: none;
+    display: inline-block;
   }
-  header > h3 {
-    margin: 0.5rem 0;
-  }
-} */
+}

@@ -5,6 +5,7 @@ Author: XXX
 
 .container {
   margin: 2rem 5%;
+  min-height: 70vh;
 }
 
 * {
@@ -56,4 +57,5 @@ p {
 }
 .post-button:hover {
   background-color: #eadec0;
+  cursor: pointer;
 }
