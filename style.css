@@ -18,6 +18,11 @@ body {
   background-color: #fefae0;
 }
 
+.custom-logo {
+  width: 100px;
+  height: 100px;
+}
+
 p {
   text-align: justify;
 }

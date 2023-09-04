@@ -17,7 +17,7 @@
     <!-- main menu -->
     <?php wp_nav_menu(array(
 
-    'primary-menu' => 'primary',
+    'theme_location' => 'primary-menu',
     'container_class' => 'menu-container',
     'menu_class' => 'main-menu',
 
