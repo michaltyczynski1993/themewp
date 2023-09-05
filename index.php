@@ -33,7 +33,7 @@
             <?php if ($query->have_posts() ) : while ($query->have_posts() ) : $query->the_post(); ?>
 
             <!-- show 3 latest posts as buttons -->
-            <input type="button" onclick="location.href='<?php the_permalink($post) ?>'" value="<?php the_title();?>" class="post-button">
+            <?php get_template_part('templates/post-card');?>
 
             <?php endwhile; else : ?> 
                 <p><?php _e( 'No Posts To Display.' ); ?></p>

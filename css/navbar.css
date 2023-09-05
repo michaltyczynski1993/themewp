@@ -24,6 +24,11 @@ header > h3 {
   margin-left: 1rem;
 }
 
+header .custom-logo {
+  width: 150px;
+  height: 150px;
+}
+
 header .menu-container .main-menu {
   display: flex;
   padding: 0 0;
