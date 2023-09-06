@@ -8,6 +8,7 @@ function load_css(){
 
     // footer styles
     wp_enqueue_style('footer', get_template_directory_uri() . '/css/footer.css', false, '1.1', 'all');
+    wp_enqueue_style('postcard', get_template_directory_uri() . '/css/postcard.css', false, 1.1, 'all');
 }
 add_action('wp_enqueue_scripts', 'load_css');
 

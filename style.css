@@ -5,7 +5,7 @@ Author: XXX
 
 .container {
   margin: 2rem 5%;
-  min-height: 70vh;
+  min-height: 90vh;
 }
 
 * {
@@ -40,11 +40,12 @@ p {
 
 .row {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: stretch;
-  height: 3rem;
+  width: 100%;
   margin: 2rem 0;
+}
+
+.row > * {
+  display: flex;
 }
 
 .container h3 {
