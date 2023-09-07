@@ -27,7 +27,8 @@ p {
   text-align: justify;
 }
 
-.container > h2 {
+.container > h2,
+.container > h1 {
   margin: 1rem 0;
 }
 
