@@ -28,7 +28,7 @@ p {
 }
 
 .container > h2 {
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .latest-posts {
@@ -42,6 +42,7 @@ p {
   display: flex;
   width: 100%;
   margin: 2rem 0;
+  flex-direction: column;
 }
 
 .row > * {
@@ -64,4 +65,10 @@ p {
 .post-button:hover {
   background-color: #eadec0;
   cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .row {
+    flex-direction: row;
+  }
 }

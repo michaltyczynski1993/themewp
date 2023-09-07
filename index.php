@@ -12,10 +12,11 @@
     <?php 
     endwhile; 
     endif;?>
-    <div class="latest-posts">
+<br>
+<hr>
 
-        <hr>
-        <h3 style="text-align:center">Check out our newest articles: </h3>
+    <div class="latest-posts">
+        <h2 style="text-align:center">Check out our newest articles: </h2>
 
         <!-- post titles -->
         <div class="row">
